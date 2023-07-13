@@ -1,0 +1,35 @@
+﻿{
+    "ver":"5.0",
+    "tag":"hipsuser",
+    "data":[
+        {
+            "id":143,
+            "power":1,
+            "name":"腾讯系一刀切反扫盘",
+            "procname":"*\\Tencent\\*\\*.exe",
+            "treatment":1,
+            "policies":[
+                {
+                    "montype":1,
+                    "action_type":2,
+                    "res_path":"C:\\Users\\*\\Documents\\*"
+                },
+                {
+                    "montype":1,
+                    "action_type":2,
+                    "res_path":"C:\\Users\\*\\Video\\*"
+                },
+                {
+                    "montype":1,
+                    "action_type":2,
+                    "res_path":"C:\\Users\\*\\Music\\*"
+                },
+                {
+                    "montype":1,
+                    "action_type":2,
+                    "res_path":"C:\\Users\\*\\Pictures\\*"
+                }
+            ]
+        }
+    ]
+}
